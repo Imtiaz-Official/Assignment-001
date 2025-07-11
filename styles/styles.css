@@ -1,19 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header {
+.parent-head {
+  height: 698px;
+  background-image: url("../images/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.site-name {
+  font-size: 34px;
+  margin-top: 50px;
   margin-left: 150px;
+}
+
+.sign-up-btn {
   margin-top: 50px;
   margin-right: 150px;
 }
-.site-name {
-  font-size: 34px;
+.focus-btn {
+  margin-top: 37px;
+  margin-bottom: 152px;
 }
-
 .summary {
   font-family: "Raleway", sans-serif;
   font-size: 65px;
