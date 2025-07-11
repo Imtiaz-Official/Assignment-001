@@ -115,12 +115,12 @@
   font-weight: bold;
   color: #4e47ff;
 }
-.common-sub{
+.common-sub {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   color: #727480;
 }
-.feedback-title{
+.feedback-title {
   font-family: "Raleway", sans-serif;
   font-size: 42px;
   font-weight: bold;
@@ -133,16 +133,15 @@
   justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
- padding: 30px;
+  padding: 30px;
   margin-bottom: 135px;
   font-family: "Raleway", sans-serif;
-  
 }
 .review-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;    
-  text-align: left;          
+  align-items: flex-start;
+  text-align: left;
   background-color: #fafbff;
   border-radius: 15px;
   width: 365px;
@@ -151,28 +150,63 @@
   box-shadow: 0 2px 8px rgba(56, 55, 55, 0.05);
 }
 .stars {
-  display: flex;             
-  margin-bottom: 24px;  
-  margin-top: 24px;   
-  
- 
+  display: flex;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
-.head-titile{
+.head-titile {
   margin-bottom: 30px;
   font-size: 30px;
 }
-.rev-info{
+.rev-info {
   display: flex;
   margin-top: 24px;
-
 }
-.ref-details{
-margin-right: 24px;
-margin-left: 12px;
-color: #757575;
-margin: 2px;
+.ref-details {
+  margin-right: 24px;
+  margin-left: 12px;
+  color: #757575;
+  margin: 2px;
 }
-.rev-info img{
+.rev-info img {
   border-radius: 50%;
   margin-right: 12px;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.contact-text {
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 528px;
+  height: 232px;
+  margin-right: 115px;
+  margin-left: 150px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 500px;
+  width: 500px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  border-radius: 10px;
+  padding: 32;
+  background-color: #f5f8ff;
+  border: none;
+  padding: 5px 10px;
 }
