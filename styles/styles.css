@@ -86,3 +86,37 @@
   margin-bottom: 166px;
   border-radius: 48px;
 }
+.productive-sec {
+  background-color: #e4e7ff;
+  padding: 50px;
+  height: 200px;
+  width: 1140px;
+  border-radius: 24px;
+  margin: 115px auto;
+  gap: 10px;
+}
+
+.pro-title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+.container-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.common-title-texts {
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+.common-sub{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #727480;
+}
